@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:black;
+}
+#signup {
+    width: 40rem;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color:white;
+    border-radius: 1rem;
+}
+
+.title{
+    margin-bottom: 1rem;
+}
+.input-group{
+    margin: .3rem 4rem;
+    position:relative;
+}
+.input-group label{
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.input-group input:not([type="radio"]) {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-radius:.2rem ;
+}
+.success input{
+    border: 3px solid lightgreen;
+}
+.error input {
+    border: 3px solid lightcoral;
+}
+.input-group i {
+    position: absolute;
+    right: 4px;
+    top: 30px;
+    visibility: hidden;
+}
+.success i.fa-circle-check {
+    visibility: visible;
+    color: lightgreen;
+}
+.error i.fa-circle-exclamation {
+    visibility: visible;
+    color: lightcoral;
+}
+
+.input-group p {
+    font-size: 15px;
+    color: red;
+    visibility: hidden;
+}
+.error p {
+    visibility: visible;
+    color: red;
+}
+
+
+.btn{
+    display: inline;
+    width: 50%;
+    padding: 10px;
+    font-size:20px;
+    margin: .7rem 0 0 9rem;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 750;
+}
+
+p{
+    color: red;
+}
